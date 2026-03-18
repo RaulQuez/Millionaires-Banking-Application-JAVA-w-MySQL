@@ -2,11 +2,11 @@
 Java-based banking app that enables user account creation, login, and transactions (deposit/withdraw). Integrates with MySQL to store and manage account data securely. Uses prepared statements for safe balance updates and ensures accurate user authentication and data integrity.
 
 Banking Application
-📌 Overview
+Overview
 
 This is a Java-based banking application that simulates core banking operations such as account creation, user authentication, and financial transactions. The system is integrated with a MySQL database to securely store and manage user data.
 
-🚀 Features
+Features
 
 Create a new user account
 
@@ -20,7 +20,7 @@ Update account balance in real-time using MySQL
 
 Input validation and duplicate username checks
 
-🛠️ Technologies Used
+Technologies Used
 
 Java (Core application logic)
 
@@ -28,7 +28,7 @@ MySQL (Database management)
 
 JDBC (Database connectivity)
 
-🗄️ Database Structure
+Database Structure
 
 Example table structure:
 
@@ -37,7 +37,7 @@ CREATE TABLE accounts (
   username VARCHAR(45) UNIQUE NOT NULL,
   balance DOUBLE
 );
-⚙️ How It Works
+How It Works
 
 User selects to create an account or log in
 
@@ -49,7 +49,7 @@ User can deposit or withdraw funds
 
 Balance is updated in the database using prepared statements
 
-▶️ How to Run
+How to Run
 
 Clone the repository:
 
@@ -71,7 +71,7 @@ Compile and run:
 
 javac Main.java
 java Main
-🔒 Security Notes
+Security Notes
 
 Uses PreparedStatement to prevent SQL injection
 
@@ -79,7 +79,7 @@ Validates user inputs before database operations
 
 Ensures correct user matching using username + account number
 
-🔮 Future Improvements
+Future Improvements
 
 Graphical User Interface (GUI)
 
@@ -89,6 +89,6 @@ Password authentication
 
 Enhanced error handling and security
 
-👨‍💻 Author
+Author
 
 Raul Henriquez
